@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>mouse event</title>
+
+    <script>
+        window.onload = function() {
+const divObj = document.querySelector(".myBox");
+        console.log(divObj);
+
+        divObj.addEventListner("mouseover",function(){
+            divObj.style.backgroundColor = "whitr";
+        });
+        divObj.addEventListner("mousedown",function(){
+            divObj.style.backgroundColor = "gray";
+             divObj.addEventListner("mouseup",function(){
+            divObj.style.backgroundColor = "gray";
+        };
+        
+    </script>
+    <style>
+        .myBox {
+            width : 200px;
+            height : 200px;
+            border: 5px solid black;
+            cursor : pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>마우스 이벤트</h3>
+    <div class="myBox"></div>
+</body>
+
+</html>

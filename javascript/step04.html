@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        //1. num type
+        let num1 =10;
+        let num2 =20.1;
+
+        console.log(typeof num1);
+        console.log(typeof num2);
+        
+
+        //2 string type
+        let myName = '성영한';
+        let yourName = '손정의';
+        let hisName = `스티브 잡스`; //es6d에서 추가됨
+        console.log(typeof myName);
+
+        //3 boolean type
+
+        let isRun = true;
+        let isGreater = 10 > 5;
+        console.log(typeof isGreater);
+
+        //4 undefined type
+        let a;
+        let b = undefined;
+        let c = a+1;        
+        console.log(typeof a);
+        console.log(typeof b);
+        console.log(c);//
+
+        //5. null type ->object
+        let d = null;
+        console.log(typeof d);
+        let e = d+1;
+        console.log(e);
+
+        //6 array type
+        const names = ['손정의','성영한','잡스'];
+        console.log(typeof names);
+
+        //7 object type
+        const obj = {num : 1, name : '성영한', id : 'syh'}
+
+        //8.function type
+        function sum(){
+            alert('sum함수 입니다.');
+        }
+        sum;
+        console.log(typeof sum);
+
+
+
+
+    </script>
+    <title>data type</title>
+
+</head>
+<body>
+    
+</body>
+</html>

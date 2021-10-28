@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 제어문 (반복문-for,while)</title>
+    <script>
+        /* 반복문 :for,while
+        for
+        (초기화 변수1; 조건식2; 증감식4 i++; 실행문3;)
+        종료법 1. 2의 조건식 false /  2.break
+*/
+/*
+        for(let i = 1; i <=9; i++)
+        {console.log (2 +"*"+ i+ "=" +(2*i));}
+*/
+let sum=0
+for(let i=1; i<101; i++){ //질문
+    sum=sum+i;
+    
+}
+console.log('1부터 100의 합은'+sum+'입니다.')
+
+/*
+sum=0
+for(let i=1; 1<=100; i%2==0 i++)<-틀린말이 나오면 안됌.!!{
+    sum=sum+i;
+}
+*/
+
+
+/*
+초기값/초기화 변수
+while(조건식){실행문; 증감식;}
+종료법 break
+*/
+
+let sum1 = 0;
+let i = 0;
+while(i<=100){
+    sum1 = sum1 + i;
+    i++;
+}
+console.log(`1부터100까지의 합은 ${sum1} 이다.`)
+
+
+    </script>
+</head>
+<body>
+
+    
+    
+</body>
+</html>
